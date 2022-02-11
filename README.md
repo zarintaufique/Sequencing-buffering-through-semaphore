@@ -1,5 +1,5 @@
 # Sequencing-buffering-through-semaphore
-Four processes are involved in printing files (pictured below). Process A reads the data from the
+Four processes are involved in printing files. Process A reads the data from the
 first file to Buffer 1, Now Process B, will read the second file and store it in the Buffer 2. Process
 C copies the data from Buffer 1 and Buffer 2 and places it in Buffer 3, finally Process D takes
 the data from Buffer 3 and prints it onto the console. This task must be done using shared
