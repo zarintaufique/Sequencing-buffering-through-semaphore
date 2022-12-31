@@ -1,3 +1,4 @@
+// Libraries
 #include <stdio.h>
 #include <fcntl.h>
 #include <sys/wait.h>
@@ -11,7 +12,7 @@
 #include <semaphore.h>
 #include <sys/shm.h>
 
-
+// Main starts here
 int main(int argc, char*argv[]){
 	
 	//creating all the shared memories
